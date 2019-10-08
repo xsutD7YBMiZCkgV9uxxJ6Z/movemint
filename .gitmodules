@@ -1,0 +1,3 @@
+[submodule "src/libra-core"]
+	path = src/libra-core
+	url = https://github.com/libra/libra
