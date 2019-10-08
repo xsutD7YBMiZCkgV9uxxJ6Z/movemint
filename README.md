@@ -57,9 +57,9 @@ Clone this repo:
 
 `git clone https://github.com/open-libra/movemint`
 
-Update the Libra Core submodule. `cd` into the cloned repo and run: `git submodule update`
+Update the Libra Core submodule. `cd` into the cloned repo and run: `git submodule update --init --recursive`
 
-Then build movemint: `cargo build movemint`
+Then build movemint: `cargo build`
 
 To run it, open two windows:
 
