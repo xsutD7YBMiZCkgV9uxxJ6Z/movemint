@@ -1,0 +1,16 @@
+[package]
+name = "movemint"
+version = "0.0.0"
+authors = ["LOL"]
+publish = false
+edition = "2018"
+
+[dependencies]
+vm_runtime = { path = "./src/libra-core/language/vm/vm_runtime/" }
+config = { path = "./src/libra-core/config/" }
+
+[dependencies.abci]
+version = "0.6.2"
+
+[dependencies.abscissa_core]
+version = "0.3.0"
