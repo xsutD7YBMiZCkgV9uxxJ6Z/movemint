@@ -19,7 +19,7 @@ This is the genesis repo for `movemint` which is being built by replacing the [S
 
 Movemint talks to Tendermint via the [ABCI].
 
-Movemint will primarily depend on the Move language [crate] from LC. A hat-tip to the LC authors and the [Libra Assosciation]!
+Movemint will primarily depend on the Move language [crate] from LC. A hat-tip to the LC authors and the [Libra Association]!
 
 When complete, Movemint may serve as node software for 1 or more Tendermint-powered networks. Some of these networks may join the [Cosmos] network.
 
