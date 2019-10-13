@@ -87,11 +87,11 @@ Finally, when you're ready to merge, please submit a PR. We will promptly review
 
 # Research
 
-For the past few months we've been busy doing research on the Libra ecosystem: papers, codebase, community, et cetera.
+For the past few months, we've been busy doing research on the Libra ecosystem: papers, codebase, community, et cetera.
 
 ## Our Strategy
 
-We have come up with a **∆ strategy** wherein the `Move VM` serves as `compatiblity layer` between a Movemint network and an LC network.
+We have come up with a **∆ strategy** wherein the `Move VM` serves as `compatibility layer` between a Movemint network and an LC network.
 
 We will publish a blog about this ∆-ular strategy of 'unpacking trust in Libra'.
 
@@ -109,7 +109,7 @@ The Golang team has recently introduced the [Go checksum] database (built on [Tr
 
 Introducing a similar checksum DB to Rust (e.g. in crates.io) and to `Move` itself is within our [Roadmap]. This is beneficial to the Rust community at large as well as the nascent Move language ecosystem. More importantly, it allows Move-compatible financial networks to share Move packages in a trustworthy fashion. We'll explain our rationale and design goals in the [tlog-rust-move] doc.
 
-`Cargo` is a powerful tool into which we can introduce checksum database checking and more. To this end, we're building a `movemint`-specific plugin and a general purpose plugin to work with Move code from within Cargo. These are found in `./cargo-movemint` and `./cargo-move` directories, respectively. Both plugins are to be built with the [Abscissa] framework (h/t [@bascule](https://twitter.com/bascule)).
+`Cargo` is a powerful tool into which we can introduce checksum database checking and more. To this end, we're building a `movemint`-specific plugin and a general-purpose plugin to work with Move code from within Cargo. These are found in `./cargo-movemint` and `./cargo-move` directories, respectively. Both plugins are to be built with the [Abscissa] framework (h/t [@bascule](https://twitter.com/bascule)).
 
 ## Protobuf + gRPC
 
@@ -123,7 +123,7 @@ DISCLAIMER
 
 _THERE MAY BE DRAGONS._
 
-All content in this repo including the README are licensed under Apache-2.0.
+All content in this repo including the README is licensed under Apache-2.0.
 
 -----
 
