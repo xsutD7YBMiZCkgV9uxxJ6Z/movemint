@@ -19,7 +19,7 @@ This is the genesis repo for `movemint` which is being built by replacing the [S
 
 Movemint talks to Tendermint via the [ABCI].
 
-Movemint will primarily depend on the Move language [crate] from LC. A hat-tip to the LC authors and the [Libra Assosciation]!
+Movemint will primarily depend on the Move language [crate] from LC. A hat-tip to the LC authors and the [Libra Association]!
 
 When complete, Movemint may serve as node software for 1 or more Tendermint-powered networks. Some of these networks may join the [Cosmos] network.
 
@@ -73,13 +73,13 @@ In the coming weeks we will be fleshing out this repository with code and docume
 
 # Join the Movemint
 
-Now, you may want to join us as we work hard to make `movemint` a reality! Jump to the `Research` section; it may give you ideas to contribute as code or documentation! You may also want to join the [OL] collective's [Discord] channel.
+Now, you may want to join us as we work hard to make `movemint` a reality! Jump to the `Research` section; it may give you ideas to contribute as code or documentation!
 
 # Contributing
 
 Use standard GitHub practices. Fork this repository. Clone to your machine. Branch from the tip, etc.
 
-`git branch -b my_awesome_contribution_to_the_movemint`
+`git checkout -b my_awesome_contribution_to_the_movemint`
 
 Code away, commit, test, and push to GitHub.
 
@@ -91,7 +91,7 @@ For the past few months we've been busy doing research on the Libra ecosystem: p
 
 ## Our Strategy
 
-We have come up with a **∆ strategy** wherein the `Move VM` serves as `compatiblity layer` between a Movemint network and an LC network.
+We have come up with a **∆ strategy** wherein the `Move VM` serves as `compatibility layer` between a Movemint network and an LC network.
 
 We will publish a blog about this ∆-ular strategy of 'unpacking trust in Libra'.
 
@@ -123,7 +123,7 @@ DISCLAIMER
 
 _THERE MAY BE DRAGONS._
 
-All content in this repo including the README are licensed under Apache-2.0.
+All content in this repo including the README is licensed under Apache-2.0.
 
 -----
 
@@ -131,7 +131,7 @@ All content in this repo including the README are licensed under Apache-2.0.
 [crates.io]: https://crates.io
 [Libra Core]: https://github.com/libra/libra
 [The Path Forward]: https://developers.libra.org/blog/2019/06/18/the-path-forward
-[Libra Assosciation]: https://libra.org
+[Libra Association]: https://libra.org
 
 [OL]: https://openlibra.io
 [Discord]: https://discord.gg/wXHHxD
